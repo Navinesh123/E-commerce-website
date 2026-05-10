@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-items: center;
+}
+.navbar-links{
+    column-gap: 20px;
+    display: flex;
+    }
+    .navbar-link a{
+        text-decoration: none;
+        color: blue;
+    }
+    .navbar-link a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    .search{
+        width: 80%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        position: relative;
+        left: 120px;
+    }
+    .products{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+      }
+      .button{
+        background-color: black;
+        color: white;
+      }
+      .button a{
+        text-decoration: none;
+        color: white;
+      }
+      .images{
+        padding: 30px;
+        
+      }
+      .images button:hover{
+        cursor: pointer;
+      }

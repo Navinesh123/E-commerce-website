@@ -1,0 +1,53 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,122,35,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+}
+.form{
+    width: 40%;
+    height: 80%;
+    background-color:rgb(33, 89, 209);
+    border-radius: 5px;
+    left: 30px;
+    padding: 40px;
+   
+
+}
+.final1{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+}
+.final{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 15px;
+
+}
+.final a{
+    text-decoration: none;
+    color: white;
+}
+.input-box{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.first{
+    margin-bottom: 5px;
+}
+.head{
+    position: relative;
+    left: 400px;
+    top: 40px;
+}

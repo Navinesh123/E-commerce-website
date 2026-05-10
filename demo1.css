@@ -1,0 +1,71 @@
+body{
+background-color: white;
+}
+.form{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 51%, rgba(252,176,69,1) 100%);
+
+    color: white;
+    position: relative;
+    width: 55%;
+    left: 230px;  
+    padding: 30px;
+    margin: 40px;  
+}
+.header{
+    text-decoration: underline;
+}
+.input1{
+    width: 50%;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+.label{
+    margin-right:40px;   
+}
+.shipping{
+    margin-top: 40px;
+}
+.first{
+    margin-top: 40px;
+}
+.input2{
+    width: 25%;
+    height: 25px;
+    border-radius: 10px;
+
+}
+.input3{
+    width: 25%;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+.line{
+    text-decoration: underline;
+}
+.submit{
+    background-color: magenta;
+    color:white;
+    width: 12%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.submit a{
+    text-decoration: none;
+    color: white;
+}
+.reset{
+    background-color: magenta;
+    color:white;
+    width: 12%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 5px;
+}
